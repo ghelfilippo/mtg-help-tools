@@ -1,0 +1,87 @@
+1x Akroma's Will (lcc) [Protection] 
+1x Anzrag's Rampage (mkm) [Removal] 
+1x Apex Altisaur (lcc) [Removal] 
+1x Arcane Signet (mkc) [Ramp] 
+1x Archdruid's Charm (mkm) [Ramp] 
+1x Battlefield Forge (bro)
+1x Birds of Paradise (rvr) [Ramp] 
+1x Blasphemous Act (lcc) [Removal] 
+1x Bonehoard Dracosaur (lci) [Draw] 
+1x Boros Charm (onc) [Protection] 
+1x Bountiful Promenade (clb)
+1x Bronzebeak Foragers (lcc) [Removal] 
+1x Brushland (bro)
+1x Cloudshift (plst) [Blink] 
+1x Command Tower (mkc)
+1x Contest of Claws (lcc) [Removal] 
+1x Curious Altisaur (lcc) [Draw] 
+1x Decimate (mkc) [Removal] 
+1x Deflecting Swat (cmm) [Protection] 
+1x Descendants' Path (lcc) [Draw] 
+1x Eerie Interlude (khc) [Blink] 
+1x Elemental Bond (scd) [Draw] 
+1x Elvish Piper (a25) [Cheat] 
+1x Ephemerate (plst) [Blink] 
+1x Etali, Primal Conqueror // Etali, Primal Sickness (mom) [Stonks] 
+1x Etali, Primal Storm (mkc) [Stonks] 
+1x Exotic Orchard (mkc)
+1x Farseek (rvr) [Ramp] 
+1x Flawless Maneuver (cmm) [Protection] 
+10x Forest (mh3) 308
+1x Fortified Village (mkc)
+1x Furycalm Snarl (mkc)
+1x Game Trail (mkc)
+1x Garruk's Uprising (scd) [Draw] 
+1x Generous Gift (lcc) [Removal] 
+1x Ghalta and Mavren (mom) [Stonks] 
+1x Ghalta, Primal Hunger (cmm) [Stonks] 
+1x Ghalta, Stampede Tyrant (lci) [Stonks] 
+1x Gishath, Sun's Avatar (lci) [Stonks] 
+1x Herald's Horn (lcc) [Ramp] 
+1x Heroic Intervention (cmm) [Protection] 
+1x Hunting Velociraptor (rex) [Cheat] 
+1x Intrepid Paleontologist (lci) [Ramp] 
+1x Ixalli's Lorekeeper (lci) [Ramp] 
+1x Jetmir's Garden (snc)
+1x Karplusan Forest (dmu)
+1x Kessig Wolf Run (mkc)
+1x Kinjalli's Caller (xln) [Ramp] 
+1x Llanowar Elves (plst) [Ramp] 
+1x Marauding Raptor (lcc) [Ramp] 
+1x Mosswort Bridge (mkc)
+3x Mountain (blb) 274
+1x Nature's Lore (mkc) [Ramp] 
+1x Overgrown Farmland (mid)
+1x Pantlaza, Sun-Favored (lcc) [Commander{top}] 
+3x Plains (mh3) 304
+1x Quartzwood Crasher (lcc) [Stonks] 
+1x Rampant Growth (lcc) [Ramp] 
+1x Regisaur Alpha (lcc) [Stonks] 
+1x Return of the Wildspeaker (mkc) [Draw] 
+1x Rhythm of the Wild (rvr) [Protection] 
+1x Rishkar's Expertise (lcc) [Draw] 
+1x Rockfall Vale (mid)
+1x Rogue's Passage (mkc)
+1x Runic Armasaur (lcc) [Draw] 
+1x Sacred Foundry (rvr)
+1x Scion of Calamity (lcc) [Removal] 
+1x Secluded Courtyard (lcc)
+1x Sol Ring (mkc) [Ramp] 
+1x Spectator Seating (cmm)
+1x Spire Garden (clb)
+1x Stomping Ground (rvr)
+1x Sundown Pass (vow)
+1x Swords to Plowshares (mkc) [Removal] 
+1x Teleportation Circle (afr) [Blink] 
+1x Temple Altisaur (lcc) [Protection] 
+1x Temple Garden (rvr)
+1x The Skullspore Nexus (lci) [Protection] 
+1x Thrashing Brontodon (lci) [Removal] 
+1x Three Visits (mkc) [Ramp] 
+1x Thunderherd Migration (lcc) [Ramp] 
+1x Topiary Stomper (lcc) [Ramp] 
+1x Trumpeting Carnosaur (lci) [Stonks] 
+1x Urza's Incubator (dmr) [Ramp] 
+1x Wakening Sun's Avatar (lcc) [Removal] 
+1x Wrathful Raptors (lcc) [Removal] 
+1x Zacama, Primal Calamity (lcc) [Removal] 

@@ -1,8 +1,10 @@
 import numpy as np
-import random
+import re
+import random, json
 from collections import Counter
 import matplotlib.pyplot as plt
 import pandas as pd
+import time
 ##################################### CALCULATOR
 
 def neededLands(avg_mana_value, ramp_number):
@@ -153,3 +155,62 @@ def getCardInfo(card_name):
         return response.json()
     else:
         return f"Errore durante la ricerca della carta: HTTP {response.status_code}"
+    
+def parseRow(card):
+    '''ottiene quantità, nome e carta'''
+    quantity = int(card.split('x')[0])
+    match = re.search(r"x (.*?) \(", card)
+    name  = match.group(1)
+    if '[' in card:
+        category = card.split('[')[1].split(']')[0]
+    else:
+        category = 'Land'
+    
+    card_info = getCardInfo(name)
+    if 'mana_cost' not in card_info.keys():
+        if 'card_faces' in card_info.keys():
+            mv = card_info['card_faces'][0]['mana_cost']
+    else:
+        mv = card_info['mana_cost']
+        time.sleep(0.01)
+    
+    if category == 'Land':
+        produced_mana = card_info['produced_mana']
+    else:
+        produced_mana = ''
+
+
+    return quantity, name, category, mv, produced_mana
+
+
+
+def initializeDeckList(path_input = 'deck/list.txt', path_output = 'deck/parsed.json'):
+
+
+    with open('lib/known_cards.json') as rf:
+        known_cards = json.load(rf)
+
+    parsed = {}
+
+    with open(path_input, 'r') as file:
+        for card in file:
+            quantity, name, category, mv , produced_mana = parseRow(card)
+            if category not in parsed.keys():
+                parsed[category] = []
+
+            p = {'name' : name, 'quantity' : quantity, 'mv' : mv}
+
+            if category == 'Land':
+                p['produced_mana'] = produced_mana
+            
+            if category == 'Ramp':
+                known_ramps = [f['name'] for f in known_cards['Ramp']]
+                if name in known_ramps:
+                    target = [f for f in known_cards['Ramp'] if f['name'] == name][0]
+                    p['ramp'] = target['ramp']
+                    p['tapped'] = target['tapped']
+            
+            parsed[category].append(p)
+
+    with open(path_output, 'w') as wf:
+        json.dump(parsed, wf, indent=4)

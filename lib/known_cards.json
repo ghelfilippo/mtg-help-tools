@@ -1,0 +1,89 @@
+{
+    "Ramp": [
+        {
+            "name": "Arcane Signet",
+            "ramp" : "{M}",
+            "tapped" : false
+        },
+        {
+            "name": "Archdruid's Charm",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Birds of Paradise",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Farseek",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Herald's Horn",
+            "ramp" : "{1}",
+            "tapped" : false
+        },
+        {
+            "name": "Intrepid Paleontologist",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Ixalli's Lorekeeper",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Kinjalli's Caller",
+            "ramp" : "{1}",
+            "tapped" : true
+        },
+        {
+            "name": "Llanowar Elves",
+            "ramp" : "{F}",
+            "tapped" : true
+        },
+        {
+            "name": "Marauding Raptor",
+            "ramp" : "{1}",
+            "tapped" : false
+        },
+        {
+            "name": "Nature's Lore",
+            "ramp" : "{M}",
+            "tapped" : false
+        },
+        {
+            "name": "Rampant Growth",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Sol Ring",
+            "ramp" : "{2}",
+            "tapped" : false
+        },
+        {
+            "name": "Three Visits",
+            "ramp" : "{M}",
+            "tapped" : false
+        },
+        {
+            "name": "Thunderherd Migration",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Topiary Stomper",
+            "ramp" : "{M}",
+            "tapped" : true
+        },
+        {
+            "name": "Urza's Incubator",
+            "ramp" : "{2}",
+            "tapped" : false
+        }
+    ]
+}
